@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/reactive.iml" filepath="$PROJECT_DIR$/.idea/reactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactivex-research/reactivex-research.iml" filepath="$PROJECT_DIR$/reactivex-research/reactivex-research.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webflux-research/webflux-research.iml" filepath="$PROJECT_DIR$/webflux-research/webflux-research.iml" />
+    </modules>
+  </component>
+</project>
