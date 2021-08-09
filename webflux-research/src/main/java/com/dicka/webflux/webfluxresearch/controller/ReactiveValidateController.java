@@ -25,4 +25,17 @@ public class ReactiveValidateController {
     public Mono<Response> checkValidation(@PathVariable("inputs")int input){
         return reactiveMathService.checkValidation(input);
     }
+
+    /** example consume observable zip string **/
+    @GetMapping(value = "/get-name")
+    public Mono<String> getName(){
+        return Mono.just("dickanirwansyah");
+    }
+
+    @GetMapping(value = "/get-greet")
+    public Mono<String> getGreet(){
+        return Mono.just("hallo");
+    }
+
+
 }

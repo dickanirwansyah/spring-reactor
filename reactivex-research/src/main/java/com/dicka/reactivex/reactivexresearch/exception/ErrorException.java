@@ -2,7 +2,6 @@ package com.dicka.reactivex.reactivexresearch.exception;
 
 
 
-
 public class ErrorException extends RuntimeException {
 
     private static final int errorCode = 100;
