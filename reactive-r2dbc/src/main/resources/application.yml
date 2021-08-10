@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+---
+spring:
+  profiles: local
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/dbuser
+    username: postgres
+    password: root
+logging:
+  level:
+    org.springframework.data.r2dbc: Debug
